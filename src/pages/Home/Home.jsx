@@ -12,6 +12,9 @@ const Home = () => {
   return (
     <div className='home'>
       <Navbar/>
+      <div className="purpose">
+      This website is a Netflix clone project created for educational purposes only and is not affiliated with or endorsed by Netflix.
+      </div>
       <div className="hero">
         <img src={hero_banner} alt="banner" className='banner-img' />
         <div className="hero-caption">
